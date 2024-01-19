@@ -32,6 +32,9 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'drf_yasg',
     'rest_framework_simplejwt.token_blacklist',
+    'apps.user',
+    'apps.post',
+    'apps.comment',
 ]
 
 MIDDLEWARE = [
@@ -157,6 +160,6 @@ REST_FRAMEWORK = {
     #     'rest_framework.permissions.IsAuthenticated',
     # ]
     }
-#AUTH_USER_MODEL = 'user.User'
+AUTH_USER_MODEL = 'user.User'
 
 

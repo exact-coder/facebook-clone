@@ -1,0 +1,15 @@
+Docker Commands for Django:
+
+create Dockerfile,docker-compose.yml and .dockerignore
+
+cmd: docker-compose build
+cmd: docker-compose run backend django-admin startproject core .
+
+runing docker
+cmd: docker-compose up
+
+for creating new app
+cmd: docker-compose exec backend sh
+# python manage.py startapp user
+# python manage.py startapp post
+# python manage.py startapp comment
